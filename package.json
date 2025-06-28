@@ -1,0 +1,25 @@
+{
+  "name": "fitniti-bot",
+  "version": "1.0.0",
+  "description": "Fitniti Runner's Portal Chatbot",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "scrape": "node scripts/scrape.js",
+    "embed": "node scripts/embed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.10.0",
+    "cheerio": "^1.1.0",
+    "cors": "^2.8.5",
+    "cosine-similarity": "^1.0.1",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "openai": "^5.7.0",
+    "simplecrawler": "^1.1.9"
+  }
+}
